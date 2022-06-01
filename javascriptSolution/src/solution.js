@@ -1,9 +1,11 @@
-// Segue abaixo os dados de curInv e newInv contidos no teste do desafio em rust.
+// solução para o desafio feito em javascript
 
+//Tansformar "curInv" em um array que contém arrays de strings.
 function getArrayOfStrings(array) {
   return array.map((item)=> item[1]) 
 }
 
+// Ordena um array em ordem alfabética
 function sortArray(array) {
   array.sort(function(a, b){
     if(a[1] < b[1]) { return -1; }
@@ -12,6 +14,7 @@ function sortArray(array) {
   });
 }
 
+// função que retorna um array que representa o inventorio atualizado segundo as regras contidas no README.
 function getUpdatedInv(curInv, newInv) {
   const updatedInv = curInv;
   const curInvStrings = getArrayOfStrings(curInv);
