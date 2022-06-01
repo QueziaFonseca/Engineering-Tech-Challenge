@@ -1,4 +1,6 @@
-Conforme acordado, esta é a solução do Tech-Challenge Nano Capital utilizando a linguagem javascript.
+Bem vindo a solução do Engineering Tech-Challenge Nano Capital!
+
+A resolução do desafio foi feita em javascript. Foi utilizada a biblioteca Jest para criar testes unitários.
 
 Seguem abaixo instruções para rodar os testes referentes ao desafio: 
 
